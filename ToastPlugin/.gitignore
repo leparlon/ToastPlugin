@@ -1,0 +1,12 @@
+.import/
+.godot/
+.vs/
+.vscode/
+.idea/
+export/
+.import/
+.mono/
+.mono_temp/
+.theos/
+bin/
+obj/

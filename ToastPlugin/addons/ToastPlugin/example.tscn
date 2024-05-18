@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://lcvffy0yl5v"]
+
+[ext_resource type="Script" path="res://addons/ToastPlugin/example.gd" id="1_x55m5"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+script = ExtResource("1_x55m5")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ButtonNoCallback" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 50
+text = "Send Toast without Callback
+"
+
+[node name="ButtonCallback" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 50
+text = "Send Toast With Callback
+"
+
+[connection signal="pressed" from="VBoxContainer/ButtonNoCallback" to="." method="_on_button_no_callback_pressed"]
+[connection signal="pressed" from="VBoxContainer/ButtonCallback" to="." method="_on_button_callback_pressed"]
