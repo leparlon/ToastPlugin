@@ -4,7 +4,6 @@ ToastPlugin is a Godot plugin that allows you to display native Android Toast me
 
 Source code:
 https://github.com/leparlon/GodotToastPlugin
-(this [file](https://github.com/leparlon/GodotToastPlugin/blob/main/AndroidProject/toastplugin/src/main/java/com/pgcn/toastplugin/ToastPlugin.java) is all that matters)
 
 ## Features
 
