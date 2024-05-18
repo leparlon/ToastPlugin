@@ -1,6 +1,6 @@
 # ToastPlugin
 
-ToastPlugin is a Godot plugin that allows you to display native Android Toast messages from your Godot project. It connects toast callbacks via signals and supports different Android APIs. Note that callbacks might not work perfectly on Android APIs under 30.
+ToastPlugin is a Godot plugin that allows you to display native Android Toast messages from your Godot project. It connects toast callbacks via signals. The callbacks might not work perfectly on Android APIs under 30.
 
 ## Features
 
@@ -11,7 +11,7 @@ ToastPlugin is a Godot plugin that allows you to display native Android Toast me
 ## Requirements
 
 - Godot 4.2 or higher
-- Android API level 24 or higher (API level 30 or higher for perfect callback functionality)
+- Android API level 24 or higher (API level 30 recommended)
 
 ## Installation
 
